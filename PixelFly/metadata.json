@@ -1,0 +1,26 @@
+{
+    "E-2": {
+        "filter_factor": "E-2",
+        "date": "27-02-25",
+        "dirpath": "./27-02-25/E-2/",
+        "saturation": {
+            "csvpath": "./Saturation/saturation_27-02-25_E-2.csv"
+        }
+    },
+    "E-4": {
+        "filter_factor": "E-4",
+        "date": "13-03-25",
+        "dirpath": "./13-03-25/E-4/",
+        "saturation": {
+            "csvpath": "./Saturation/saturation_13-03-25_E-4.csv"
+        }
+    },
+    "E-6": {
+        "filter_factor": "E-6",
+        "date": "13-03-25",
+        "dirpath": "./13-03-25/E-6/",
+        "saturation": {
+            "csvpath": "./Saturation/saturation_13-03-25_E-6.csv"
+        }
+    }
+}
