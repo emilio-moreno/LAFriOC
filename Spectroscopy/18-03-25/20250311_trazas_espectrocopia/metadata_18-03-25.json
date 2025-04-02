@@ -1,4 +1,9 @@
 {
+    "F0000CH1.CSV": {
+        "well": "ALL",
+	"avg_size": 10,
+        "prominence": 0.05
+    },    
     "TEK0001.CSV": {
         "well": "RB87_1",
 	"avg_size": 10,
