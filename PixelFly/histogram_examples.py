@@ -31,21 +31,21 @@ for txtpath, imgpath in zip(txt, img): #, desc):
 	maxfilt2 = df['Index'] < 16384
 	minfilt2 = df['Index'] > 1000
 
-	# index1 = df['Index'][minfilt1][maxfilt1]
-	# value1 = df[' Value'][minfilt1][maxfilt1]
-	index2 = df['Index'][minfilt2][maxfilt2]
-	value2 = df[' Value'][minfilt2][maxfilt2]
-
-	mosaic = [['hist2', 'img']]
-	labels = ['Intensidades para saturación', #'Intensidades para saturación',
+	index1 = df['Index'][minfilt1][maxfilt1]
+	value1 = df[' Value'][minfilt1][maxfilt1]
+	#index2 = df['Index'][minfilt2][maxfilt2]
+	#value2 = df[' Value'][minfilt2][maxfilt2]
+	
+	mosaic = [['hist1', 'img']]
+	labels = ['Intensidades máximas', #'Intensidades para saturación',
 			  'Fotografía de la PixelFly'] #, 'Descripción']
 	fig, axs = plt.subplot_mosaic(mosaic, figsize=(30, 10), dpi=300)
 	title = txtpath.replace('.txt', '').replace('S', '').replace('_', ', ')
 	fig.suptitle(title)
 	
-	# axs['hist1'].scatter(index1, value1, color=colors['miku'], s=5)
-	axs['hist2'].scatter(index2, value2, color=colors['miku'], s=5)
-	axs['hist2'].axvline(16384, color='red')
+	axs['hist1'].scatter(index1, value1, color=colors['miku'], s=5)
+	#axs['hist2'].scatter(index2, value2, color=colors['miku'], s=5)
+	#axs['hist2'].axvline(16384, color='red')
 	axs['img'].imshow(image)
 	#axs['desc'].imshow(description)
 
@@ -55,7 +55,7 @@ for txtpath, imgpath in zip(txt, img): #, desc):
 			axs[ax_label].set(xlabel='Bits', ylabel='Cuentas (#)')
 			axs[ax_label].grid(True)
 
-	plt.savefig("Examples/example" + imgpath)
+	plt.savefig("Examples/peak_example" + imgpath)
 
 
 # #plt.fill(index, value, color=colors['miku'], alpha=0.2)
