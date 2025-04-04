@@ -6,7 +6,7 @@
     },    
     "TEK0001.CSV": {
         "well": "RB87_1",
-	"avg_size": 10,
+	"avg_size": 5,
         "prominence": 0.05
     },
     "TEK0002.CSV": {

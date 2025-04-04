@@ -46,12 +46,8 @@ class HyperfineStructure:
     # Fine structure energy values
     # Same labeling as with Rubidium class dicts.
     
-    constants_85 = {
-            "01": A_S12_85,
-            "11": A_P12_85,
-            "13": A_P32_85
-    }
-    pass
+    second_crossover = (229.8518 - 193.7408) / 2 # MHz
+    third_crossover = 266.650 / 2 # MHz
     
 
 class Rubidium:
@@ -134,6 +130,11 @@ class Rubidium:
 
 
 #%%
-rubidium_85 = Rubidium(85)
-rubidium_87 = Rubidium(87)
-print(rubidium_87.hyperfine_structure)
+def main():
+    rubidium_85 = Rubidium(85)
+    rubidium_87 = Rubidium(87)
+    print(rubidium_87.hyperfine_structure)
+    
+
+if __name__ == '__main__':
+    main()
