@@ -1,0 +1,28 @@
+{
+    "F0001CH1.CSV": {
+        "well": "ALL",
+	    "avg_size": 10,
+        "prominence": 0.05
+    },
+    "F0002CH1.CSV": {
+        "well": "ALL",
+	    "avg_size": 5,
+        "prominence": 0.01,
+        "tmin": -0.04,
+        "tmax": -0.028
+    },
+    "F0003CH1.CSV": {
+        "well": "ALL",
+	    "avg_size": 5,
+        "prominence": 0.01,
+        "tmin": -0.04,
+        "tmax": -0.03
+    },
+    "F0004CH1.CSV": {
+        "well": "ALL",
+	    "avg_size": 5,
+        "prominence": 0.05,
+        "tmin": -0.04,
+        "tmax": -0.031
+    }
+}

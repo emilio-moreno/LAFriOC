@@ -1,0 +1,34 @@
+{
+    "F0000CH1.CSV": {
+        "well": "ALL",
+	"avg_size": 10,
+        "prominence": 0.05
+    },    
+    "TEK0001.CSV": {
+        "well": "RB87_1",
+	"avg_size": 5,
+        "prominence": 0.05
+    },
+    "TEK0002.CSV": {
+        "well": "RB85_1",
+	"avg_size": 10,
+        "prominence": 0.01,
+	"tmin": -0.02,
+	"tmax": 0.02
+    },
+    "TEK0003.CSV": {
+        "well": "RB85_2",
+	"avg_size": 10,
+        "prominence": 0.005,
+	"tmax": 0.01,
+	"tmin": -0.01
+    },
+    "TEK0004.CSV": {
+        "well": "RB87_2",
+	"avg_size": 10,
+        "prominence": 0.003,
+	"tmax": 0.015,
+	"tmin": 0.0005
+    }
+}
+
