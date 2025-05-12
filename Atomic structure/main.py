@@ -1,4 +1,4 @@
-from atomic_structure import *
+from hydrogen import *
 
 n1 = Energylevel(1, m_j=True)
 n2 = Energylevel(2, m_j=True)
