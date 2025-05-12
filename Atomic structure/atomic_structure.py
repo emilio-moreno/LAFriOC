@@ -1,3 +1,4 @@
+'''Collection of classes for calculating fine structure and Zeeman effect.'''
 import sympy as smp
 import numpy as np
 import matplotlib.pyplot as plt
