@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -217,52 +217,6 @@
 <wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.1" layer="51"/>
 <wire x1="0" y1="0.7" x2="0" y2="-0.7" width="0.2" layer="21"/>
 </package>
-<package name="DVI-D-R" urn="urn:adsk.eagle:footprint:8062980/1" library_version="27">
-<description>&lt;b&gt;74320-9004&lt;/b&gt;&lt;p&gt;
-MiroCross(TM)-DVI i/0 plug and receptacle connector system (scart)</description>
-<pad name="1" x="-9.525" y="6.985" drill="0.8636" diameter="1.016"/>
-<pad name="2" x="-7.62" y="6.985" drill="0.8636" diameter="1.016"/>
-<pad name="3" x="-5.715" y="6.985" drill="0.8636" diameter="1.016"/>
-<pad name="4" x="-3.81" y="6.985" drill="0.8636" diameter="1.016"/>
-<pad name="5" x="-1.905" y="6.985" drill="0.8636" diameter="1.016"/>
-<pad name="6" x="0" y="6.985" drill="0.8636" diameter="1.016"/>
-<pad name="7" x="1.905" y="6.985" drill="0.8636" diameter="1.016"/>
-<pad name="8" x="3.81" y="6.985" drill="0.8636" diameter="1.016"/>
-<pad name="9" x="-9.525" y="5.08" drill="0.8636" diameter="1.016"/>
-<pad name="10" x="-7.62" y="5.08" drill="0.8636" diameter="1.016"/>
-<pad name="11" x="-5.715" y="5.08" drill="0.8636" diameter="1.016"/>
-<pad name="12" x="-3.81" y="5.08" drill="0.8636" diameter="1.016"/>
-<pad name="13" x="-1.905" y="5.08" drill="0.8636" diameter="1.016"/>
-<pad name="14" x="0" y="5.08" drill="0.8636" diameter="1.016"/>
-<pad name="15" x="1.905" y="5.08" drill="0.8636" diameter="1.016"/>
-<pad name="16" x="3.81" y="5.08" drill="0.8636" diameter="1.016"/>
-<pad name="17" x="-9.525" y="3.175" drill="0.8636" diameter="1.016"/>
-<pad name="18" x="-7.62" y="3.175" drill="0.8636" diameter="1.016"/>
-<pad name="19" x="-5.715" y="3.175" drill="0.8636" diameter="1.016"/>
-<pad name="20" x="-3.81" y="3.175" drill="0.8636" diameter="1.016"/>
-<pad name="21" x="-1.905" y="3.175" drill="0.8636" diameter="1.016"/>
-<pad name="22" x="0" y="3.175" drill="0.8636" diameter="1.016"/>
-<pad name="23" x="1.905" y="3.175" drill="0.8636" diameter="1.016"/>
-<pad name="24" x="3.81" y="3.175" drill="0.8636" diameter="1.016"/>
-<pad name="25" x="-15.9004" y="1.651" drill="3.175" diameter="4.572"/>
-<pad name="26" x="15.9004" y="1.651" drill="3.175" diameter="4.572"/>
-<text x="-7.62" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-7.62" y="-1.27" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-18.415" y1="6.999221875" x2="-18.415" y2="-1.509778125" width="0.127" layer="22"/>
-<wire x1="-18.415" y1="-1.509778125" x2="18.415" y2="-1.524" width="0.127" layer="22"/>
-<wire x1="18.415" y1="6.985" x2="18.415" y2="-1.524" width="0.127" layer="22"/>
-<wire x1="-16.4084" y1="8.8646" x2="16.4592" y2="8.8646" width="0.127" layer="22"/>
-<wire x1="-18.415" y1="-1.509778125" x2="-18.415" y2="-2.667" width="0.127" layer="22"/>
-<wire x1="-18.415" y1="-2.667" x2="-12.0142" y2="-2.667" width="0.127" layer="22"/>
-<wire x1="-12.0142" y1="-2.667" x2="12.0142" y2="-2.667" width="0.127" layer="22"/>
-<wire x1="12.0142" y1="-2.667" x2="18.415" y2="-2.667" width="0.127" layer="22"/>
-<wire x1="18.415" y1="-2.667" x2="18.415" y2="-1.524" width="0.127" layer="22"/>
-<wire x1="-12.0142" y1="-9.1694" x2="12.0142" y2="-9.1694" width="0.127" layer="22"/>
-<wire x1="-12.0142" y1="-2.667" x2="-12.0142" y2="-9.1694" width="0.127" layer="22"/>
-<wire x1="12.0142" y1="-2.667" x2="12.0142" y2="-9.1694" width="0.127" layer="22"/>
-<wire x1="-18.415" y1="6.999221875" x2="-16.4084" y2="8.8646" width="0.127" layer="22" curve="-93.865461"/>
-<wire x1="18.415" y1="6.985" x2="16.4592" y2="8.8646" width="0.127" layer="22" curve="92.321531"/>
-</package>
 <package name="WP130WCP/2EGW" urn="urn:adsk.eagle:footprint:8063004/1" library_version="27">
 <description>&lt;b&gt;Kingbright LED&lt;/b&gt;&lt;p&gt;
 
@@ -427,13 +381,6 @@ Pins are offset 0.005" from center to lock pins in place during soldering.
 <packageinstance name="CAPC3216X180N"/>
 </packageinstances>
 </package3d>
-<package3d name="DVI-D-R" urn="urn:adsk.eagle:package:8063018/2" type="model" library_version="27">
-<description>&lt;b&gt;74320-9004&lt;/b&gt;&lt;p&gt;
-MiroCross(TM)-DVI i/0 plug and receptacle connector system (scart)</description>
-<packageinstances>
-<packageinstance name="DVI-D-R"/>
-</packageinstances>
-</package3d>
 <package3d name="DUOLED-C-5MM" urn="urn:adsk.eagle:package:8063024/2" type="model" library_version="27">
 <description>&lt;b&gt;Kingbright LED&lt;/b&gt;&lt;p&gt;
 
@@ -559,41 +506,6 @@ CONN_03
 <text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 <pin name="1" x="0" y="0" visible="pad" length="middle"/>
 <pin name="2" x="12.7" y="0" visible="pad" length="middle" rot="R180"/>
-</symbol>
-<symbol name="DVI-D" urn="urn:adsk.eagle:symbol:8062994/1" library_version="16">
-<wire x1="-10.16" y1="30.48" x2="-10.16" y2="-33.02" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-33.02" x2="7.62" y2="30.48" width="0.254" layer="94"/>
-<wire x1="7.62" y1="30.48" x2="-7.62" y2="30.48" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="30.48" x2="-10.16" y2="30.48" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-33.02" x2="7.62" y2="-33.02" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="33.02" x2="-7.62" y2="30.48" width="0.127" layer="94"/>
-<text x="-10.16" y="36.83" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-38.1" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="DATA2-" x="-12.7" y="27.94" length="short" direction="pas"/>
-<pin name="DATA2+" x="-12.7" y="25.4" length="short" direction="pas"/>
-<pin name="DATA2/4S" x="-12.7" y="22.86" length="short" direction="pas"/>
-<pin name="DATA4-" x="-12.7" y="20.32" length="short" direction="pas"/>
-<pin name="DATA4+" x="-12.7" y="17.78" length="short" direction="pas"/>
-<pin name="DDCCLOCK" x="-12.7" y="15.24" length="short" direction="pas"/>
-<pin name="DDCDATA" x="-12.7" y="12.7" length="short" direction="pas"/>
-<pin name="NC" x="-12.7" y="10.16" length="short" direction="pas"/>
-<pin name="DATA1-" x="-12.7" y="7.62" length="short" direction="pas"/>
-<pin name="DATA1+" x="-12.7" y="5.08" length="short" direction="pas"/>
-<pin name="DATA1/3S" x="-12.7" y="2.54" length="short" direction="pas"/>
-<pin name="DATA3-" x="-12.7" y="0" length="short" direction="pas"/>
-<pin name="DATA3+" x="-12.7" y="-2.54" length="short" direction="pas"/>
-<pin name="+5V" x="-12.7" y="-5.08" length="short" direction="pwr"/>
-<pin name="GND" x="-12.7" y="-7.62" length="short" direction="pwr"/>
-<pin name="HOT-PLUG" x="-12.7" y="-10.16" length="short" direction="pas"/>
-<pin name="DATA0-" x="-12.7" y="-12.7" length="short" direction="pas"/>
-<pin name="DATA0+" x="-12.7" y="-15.24" length="short" direction="pas"/>
-<pin name="DATA0/5S" x="-12.7" y="-17.78" length="short" direction="pas"/>
-<pin name="DATA5-" x="-12.7" y="-20.32" length="short" direction="pas"/>
-<pin name="DATA5+" x="-12.7" y="-22.86" length="short" direction="pas"/>
-<pin name="CLOCKS" x="-12.7" y="-25.4" length="short" direction="pas"/>
-<pin name="CLOCK+" x="-12.7" y="-27.94" length="short" direction="pas"/>
-<pin name="CLOCK-" x="-12.7" y="-30.48" length="short" direction="pas"/>
-<pin name="SHIELD" x="-12.7" y="33.02" length="middle" direction="pwr"/>
 </symbol>
 <symbol name="WP130WCP/2EGW" urn="urn:adsk.eagle:symbol:8062997/1" library_version="16">
 <wire x1="-5.08" y1="3.81" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
@@ -840,50 +752,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/C3216X7R2E473
 </device>
 </devices>
 </deviceset>
-<deviceset name="DVI-D-R" urn="urn:adsk.eagle:component:8063031/2" prefix="X" library_version="27">
-<description>&lt;b&gt;74320-9004&lt;/b&gt;&lt;p&gt;
-MiroCross(TM)-DVI i/0 plug and receptacle connector system (scart)</description>
-<gates>
-<gate name="G$1" symbol="DVI-D" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_74320" package="DVI-D-R">
-<connects>
-<connect gate="G$1" pin="+5V" pad="14"/>
-<connect gate="G$1" pin="CLOCK+" pad="23"/>
-<connect gate="G$1" pin="CLOCK-" pad="24"/>
-<connect gate="G$1" pin="CLOCKS" pad="22"/>
-<connect gate="G$1" pin="DATA0+" pad="18"/>
-<connect gate="G$1" pin="DATA0-" pad="17"/>
-<connect gate="G$1" pin="DATA0/5S" pad="19"/>
-<connect gate="G$1" pin="DATA1+" pad="10"/>
-<connect gate="G$1" pin="DATA1-" pad="9"/>
-<connect gate="G$1" pin="DATA1/3S" pad="11"/>
-<connect gate="G$1" pin="DATA2+" pad="2"/>
-<connect gate="G$1" pin="DATA2-" pad="1"/>
-<connect gate="G$1" pin="DATA2/4S" pad="3"/>
-<connect gate="G$1" pin="DATA3+" pad="13"/>
-<connect gate="G$1" pin="DATA3-" pad="12"/>
-<connect gate="G$1" pin="DATA4+" pad="5"/>
-<connect gate="G$1" pin="DATA4-" pad="4"/>
-<connect gate="G$1" pin="DATA5+" pad="21"/>
-<connect gate="G$1" pin="DATA5-" pad="20"/>
-<connect gate="G$1" pin="DDCCLOCK" pad="6"/>
-<connect gate="G$1" pin="DDCDATA" pad="7"/>
-<connect gate="G$1" pin="GND" pad="15"/>
-<connect gate="G$1" pin="HOT-PLUG" pad="16"/>
-<connect gate="G$1" pin="NC" pad="8"/>
-<connect gate="G$1" pin="SHIELD" pad="25 26"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:8063018/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="WP130WCP/2EGW" urn="urn:adsk.eagle:component:8063032/2" prefix="LD" uservalue="yes" library_version="27">
 <description>&lt;b&gt;Kingbright LED&lt;/b&gt;&lt;p&gt;
 
@@ -1092,6 +960,150 @@ Molex, LLC.</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="headboard" urn="urn:adsk.eagle:library:49120877">
+<description>Generated from &lt;b&gt;Laser head board.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
+<packages>
+<package name="OCR_DVI-D-R" urn="urn:adsk.eagle:footprint:49120884/1" library_version="1" library_locally_modified="yes">
+<description>&lt;b&gt;74320-9004&lt;/b&gt;&lt;p&gt;
+MiroCross(TM)-DVI i/0 plug and receptacle connector system (scart)</description>
+<wire x1="-18.415" y1="6.999221875" x2="-18.415" y2="-1.509778125" width="0.127" layer="22"/>
+<wire x1="-18.415" y1="-1.509778125" x2="18.415" y2="-1.524" width="0.127" layer="22"/>
+<wire x1="18.415" y1="6.985" x2="18.415" y2="-1.524" width="0.127" layer="22"/>
+<wire x1="-16.4084" y1="8.8646" x2="16.4592" y2="8.8646" width="0.127" layer="22"/>
+<wire x1="-18.415" y1="-1.509778125" x2="-18.415" y2="-2.667" width="0.127" layer="22"/>
+<wire x1="-18.415" y1="-2.667" x2="-12.0142" y2="-2.667" width="0.127" layer="22"/>
+<wire x1="-12.0142" y1="-2.667" x2="12.0142" y2="-2.667" width="0.127" layer="22"/>
+<wire x1="12.0142" y1="-2.667" x2="18.415" y2="-2.667" width="0.127" layer="22"/>
+<wire x1="18.415" y1="-2.667" x2="18.415" y2="-1.524" width="0.127" layer="22"/>
+<wire x1="-12.0142" y1="-9.1694" x2="12.0142" y2="-9.1694" width="0.127" layer="22"/>
+<wire x1="-12.0142" y1="-2.667" x2="-12.0142" y2="-9.1694" width="0.127" layer="22"/>
+<wire x1="12.0142" y1="-2.667" x2="12.0142" y2="-9.1694" width="0.127" layer="22"/>
+<wire x1="-18.415" y1="6.999221875" x2="-16.4084" y2="8.8646" width="0.127" layer="22" curve="-93.865461"/>
+<wire x1="18.415" y1="6.985" x2="16.4592" y2="8.8646" width="0.127" layer="22" curve="92.321531"/>
+<pad name="1" x="-9.525" y="6.985" drill="0.8636" diameter="1.016"/>
+<pad name="2" x="-7.62" y="6.985" drill="0.8636" diameter="1.016"/>
+<pad name="3" x="-5.715" y="6.985" drill="0.8636" diameter="1.016"/>
+<pad name="4" x="-3.81" y="6.985" drill="0.8636" diameter="1.016"/>
+<pad name="5" x="-1.905" y="6.985" drill="0.8636" diameter="1.016"/>
+<pad name="6" x="0" y="6.985" drill="0.8636" diameter="1.016"/>
+<pad name="7" x="1.905" y="6.985" drill="0.8636" diameter="1.016"/>
+<pad name="8" x="3.81" y="6.985" drill="0.8636" diameter="1.016"/>
+<pad name="9" x="-9.525" y="5.08" drill="0.8636" diameter="1.016"/>
+<pad name="10" x="-7.62" y="5.08" drill="0.8636" diameter="1.016"/>
+<pad name="11" x="-5.715" y="5.08" drill="0.8636" diameter="1.016"/>
+<pad name="12" x="-3.81" y="5.08" drill="0.8636" diameter="1.016"/>
+<pad name="13" x="-1.905" y="5.08" drill="0.8636" diameter="1.016"/>
+<pad name="14" x="0" y="5.08" drill="0.8636" diameter="1.016"/>
+<pad name="15" x="1.905" y="5.08" drill="0.8636" diameter="1.016"/>
+<pad name="16" x="3.81" y="5.08" drill="0.8636" diameter="1.016"/>
+<pad name="17" x="-9.525" y="3.175" drill="0.8636" diameter="1.016"/>
+<pad name="18" x="-7.62" y="3.175" drill="0.8636" diameter="1.016"/>
+<pad name="19" x="-5.715" y="3.175" drill="0.8636" diameter="1.016"/>
+<pad name="20" x="-3.81" y="3.175" drill="0.8636" diameter="1.016"/>
+<pad name="21" x="-1.905" y="3.175" drill="0.8636" diameter="1.016"/>
+<pad name="22" x="0" y="3.175" drill="0.8636" diameter="1.016"/>
+<pad name="23" x="1.905" y="3.175" drill="0.8636" diameter="1.016"/>
+<pad name="24" x="3.81" y="3.175" drill="0.8636" diameter="1.016"/>
+<pad name="25" x="-15.9004" y="1.651" drill="3.175" diameter="4.572"/>
+<pad name="26" x="15.9004" y="1.651" drill="3.175" diameter="4.572"/>
+<text x="-7.62" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-7.62" y="-1.27" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="OCR_DVI-D-R" urn="urn:adsk.eagle:package:49120904/1" type="box" library_version="1" library_locally_modified="yes">
+<description>&lt;b&gt;74320-9004&lt;/b&gt;&lt;p&gt;
+MiroCross(TM)-DVI i/0 plug and receptacle connector system (scart)</description>
+<packageinstances>
+<packageinstance name="OCR_DVI-D-R"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="OCR_DVI-D" urn="urn:adsk.eagle:symbol:49120893/1" library_version="1" library_locally_modified="yes">
+<wire x1="-10.16" y1="30.48" x2="-10.16" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-33.02" x2="7.62" y2="30.48" width="0.254" layer="94"/>
+<wire x1="7.62" y1="30.48" x2="-7.62" y2="30.48" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="30.48" x2="-10.16" y2="30.48" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-33.02" x2="7.62" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="33.02" x2="-7.62" y2="30.48" width="0.127" layer="94"/>
+<pin name="+5V" x="-12.7" y="-5.08" length="short" direction="pwr"/>
+<pin name="CLOCK+" x="-12.7" y="-27.94" length="short" direction="pas"/>
+<pin name="CLOCK-" x="-12.7" y="-30.48" length="short" direction="pas"/>
+<pin name="CLOCKS" x="-12.7" y="-25.4" length="short" direction="pas"/>
+<pin name="DATA0+" x="-12.7" y="-15.24" length="short" direction="pas"/>
+<pin name="DATA0-" x="-12.7" y="-12.7" length="short" direction="pas"/>
+<pin name="DATA0/5S" x="-12.7" y="-17.78" length="short" direction="pas"/>
+<pin name="DATA1+" x="-12.7" y="5.08" length="short" direction="pas"/>
+<pin name="DATA1-" x="-12.7" y="7.62" length="short" direction="pas"/>
+<pin name="DATA1/3S" x="-12.7" y="2.54" length="short" direction="pas"/>
+<pin name="DATA2+" x="-12.7" y="25.4" length="short" direction="pas"/>
+<pin name="DATA2-" x="-12.7" y="27.94" length="short" direction="pas"/>
+<pin name="DATA2/4S" x="-12.7" y="22.86" length="short" direction="pas"/>
+<pin name="DATA3+" x="-12.7" y="-2.54" length="short" direction="pas"/>
+<pin name="DATA3-" x="-12.7" y="0" length="short" direction="pas"/>
+<pin name="DATA4+" x="-12.7" y="17.78" length="short" direction="pas"/>
+<pin name="DATA4-" x="-12.7" y="20.32" length="short" direction="pas"/>
+<pin name="DATA5+" x="-12.7" y="-22.86" length="short" direction="pas"/>
+<pin name="DATA5-" x="-12.7" y="-20.32" length="short" direction="pas"/>
+<pin name="DDCCLOCK" x="-12.7" y="15.24" length="short" direction="pas"/>
+<pin name="DDCDATA" x="-12.7" y="12.7" length="short" direction="pas"/>
+<pin name="GND" x="-12.7" y="-7.62" length="short" direction="pwr"/>
+<pin name="HOT-PLUG" x="-12.7" y="-10.16" length="short" direction="pas"/>
+<pin name="NC" x="-12.7" y="10.16" length="short" direction="pas"/>
+<pin name="SHIELD" x="-12.7" y="33.02" length="middle" direction="pwr"/>
+<text x="-10.16" y="36.83" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-38.1" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="OCR_DVI-D-R" urn="urn:adsk.eagle:component:49120914/1" prefix="X" library_version="1" library_locally_modified="yes">
+<description>&lt;b&gt;74320-9004&lt;/b&gt;&lt;p&gt;
+MiroCross(TM)-DVI i/0 plug and receptacle connector system (scart)</description>
+<gates>
+<gate name="G$1" symbol="OCR_DVI-D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_74320" package="OCR_DVI-D-R">
+<connects>
+<connect gate="G$1" pin="+5V" pad="14"/>
+<connect gate="G$1" pin="CLOCK+" pad="23"/>
+<connect gate="G$1" pin="CLOCK-" pad="24"/>
+<connect gate="G$1" pin="CLOCKS" pad="22"/>
+<connect gate="G$1" pin="DATA0+" pad="18"/>
+<connect gate="G$1" pin="DATA0-" pad="17"/>
+<connect gate="G$1" pin="DATA0/5S" pad="19"/>
+<connect gate="G$1" pin="DATA1+" pad="10"/>
+<connect gate="G$1" pin="DATA1-" pad="9"/>
+<connect gate="G$1" pin="DATA1/3S" pad="11"/>
+<connect gate="G$1" pin="DATA2+" pad="2"/>
+<connect gate="G$1" pin="DATA2-" pad="1"/>
+<connect gate="G$1" pin="DATA2/4S" pad="3"/>
+<connect gate="G$1" pin="DATA3+" pad="13"/>
+<connect gate="G$1" pin="DATA3-" pad="12"/>
+<connect gate="G$1" pin="DATA4+" pad="5"/>
+<connect gate="G$1" pin="DATA4-" pad="4"/>
+<connect gate="G$1" pin="DATA5+" pad="21"/>
+<connect gate="G$1" pin="DATA5-" pad="20"/>
+<connect gate="G$1" pin="DDCCLOCK" pad="6"/>
+<connect gate="G$1" pin="DDCDATA" pad="7"/>
+<connect gate="G$1" pin="GND" pad="15"/>
+<connect gate="G$1" pin="HOT-PLUG" pad="16"/>
+<connect gate="G$1" pin="NC" pad="8"/>
+<connect gate="G$1" pin="SHIELD" pad="25 26"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49120904/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1116,7 +1128,7 @@ Molex, LLC.</description>
 <part name="R2" library="OCR" library_urn="urn:adsk.eagle:library:8062975" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:8116984/2" value="4k99"/>
 <part name="R4" library="OCR" library_urn="urn:adsk.eagle:library:8062975" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:8116984/2" value="43R"/>
 <part name="PBB150" library="OCR" library_urn="urn:adsk.eagle:library:8062975" deviceset="PBB150" device="" package3d_urn="urn:adsk.eagle:package:8063021/2"/>
-<part name="X1" library="OCR" library_urn="urn:adsk.eagle:library:8062975" deviceset="DVI-D-R" device="_74320" package3d_urn="urn:adsk.eagle:package:8063018/2" value="DVI-D-R"/>
+<part name="X1" library="headboard" library_urn="urn:adsk.eagle:library:49120877" deviceset="OCR_DVI-D-R" device="_74320" package3d_urn="urn:adsk.eagle:package:49120904/1" value="DVI-D-R"/>
 <part name="LD1" library="OCR" library_urn="urn:adsk.eagle:library:8062975" deviceset="WP130WCP/2EGW" device="" package3d_urn="urn:adsk.eagle:package:8063024/2"/>
 <part name="ZD" library="OCR" library_urn="urn:adsk.eagle:library:8062975" deviceset="MMSZ3V3T1G" device="" package3d_urn="urn:adsk.eagle:package:8068621/4" value="3.3V"/>
 <part name="C1" library="OCR" library_urn="urn:adsk.eagle:library:8062975" deviceset="C3216X7R2E473K160AA" device="" package3d_urn="urn:adsk.eagle:package:8068922/2" value="47nF 250V"/>
