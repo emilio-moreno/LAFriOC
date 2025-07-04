@@ -157,7 +157,11 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <board>
+<<<<<<< Updated upstream
 <fusionsync huburn="a.cGVyc29uYWw6dWUyZDIwNDJm" projecturn="a.cGVyc29uYWw6dWUyZDIwNDJmIzIwMTkwMTEwMTY5NTQ0MzAx" f3durn="urn:adsk.wipprod:dm.lineage:Pmg2jOw9RuixqRpqpTjOuQ" pcbguid="53355b91-1eec-4cb6-8610-d8961a115a86" lastpulledtime="" lastsyncedchangeguid="75431456-99d6-ebe4-e6b3-d1b329f8ebab" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="" lastpushedtime="" linktopcb3d="false"/>
+=======
+<fusionsync huburn="a.YnVzaW5lc3M6bnVjbGVhcmVzMw" projecturn="a.YnVzaW5lc3M6bnVjbGVhcmVzMyMyMDI1MDIxNjg3ODQ5NDAzMQ" f3durn="urn:adsk.wipprod:dm.lineage:C3V_D2hTTpSfSovqjwIDkA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="75431456-99d6-ebe4-e6b3-d1b329f8ebab" latestrevisionid="6cbad6d0-4148-4202-8da4-0bd3c5842cd9" lastsyncedrevisionid="6cbad6d0-4148-4202-8da4-0bd3c5842cd9" lastboardhashguid="c84bbf12-ab32-0358-85b2-7cec895222fc" lastpushedtime="2025-07-03T11:28:11Z" linktopcb3d="true"/>
+>>>>>>> Stashed changes
 <plain>
 <wire x1="-33.3237125" y1="-1.524021875" x2="36.9570625" y2="-1.524028125" width="0" layer="20"/>
 <wire x1="36.9570625" y1="-1.524028125" x2="36.95799375" y2="26.8992" width="0" layer="20"/>

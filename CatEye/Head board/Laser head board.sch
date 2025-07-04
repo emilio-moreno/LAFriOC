@@ -1098,6 +1098,73 @@ MiroCross(TM)-DVI i/0 plug and receptacle connector system (scart)</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Laser head board" urn="urn:adsk.eagle:library:49119273">
+<description>Generated from &lt;b&gt;Laser head board.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
+<packages>
+<package name="OCR_0805" urn="urn:adsk.eagle:footprint:49119283/1" library_version="1" library_locally_modified="yes">
+<description>&lt;p&gt;&lt;b&gt;Generic 2012 (0805) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-1.5" y1="0.8" x2="1.5" y2="0.8" width="0.0508" layer="39"/>
+<wire x1="1.5" y1="0.8" x2="1.5" y2="-0.8" width="0.0508" layer="39"/>
+<wire x1="1.5" y1="-0.8" x2="-1.5" y2="-0.8" width="0.0508" layer="39"/>
+<wire x1="-1.5" y1="-0.8" x2="-1.5" y2="0.8" width="0.0508" layer="39"/>
+<smd name="1" x="-0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
+<smd name="2" x="0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
+<text x="0" y="0.889" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.889" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="OCR_0805" urn="urn:adsk.eagle:package:49119303/2" type="model" library_version="1" library_locally_modified="yes">
+<description>&lt;p&gt;&lt;b&gt;Generic 2012 (0805) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="OCR_0805"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="OCR_RESISTOR" urn="urn:adsk.eagle:symbol:49119286/1" library_version="1" library_locally_modified="yes">
+<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<text x="0" y="1.524" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.524" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="OCR_RESISTOR" urn="urn:adsk.eagle:component:49119307/1" locally_modified="yes" prefix="R" library_version="1" library_locally_modified="yes">
+<description>&lt;h3&gt;0.75Ω resistor&lt;/h3&gt;
+&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="OCR_RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="OCR_0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:49119303/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1109,6 +1176,7 @@ MiroCross(TM)-DVI i/0 plug and receptacle connector system (scart)</description>
 </class>
 </classes>
 <parts>
+<<<<<<< Updated upstream
 <part name="X2" library="headboard" library_urn="urn:adsk.eagle:library:49120877" deviceset="OCR_SMA-R/A" device="" package3d_urn="urn:adsk.eagle:package:49120900/1" value="SMA-R"/>
 <part name="TEC" library="headboard" library_urn="urn:adsk.eagle:library:49120877" deviceset="OCR_CONN_02" device="" package3d_urn="urn:adsk.eagle:package:49120902/1"/>
 <part name="PIEZO" library="headboard" library_urn="urn:adsk.eagle:library:49120877" deviceset="OCR_CONN_02" device="" package3d_urn="urn:adsk.eagle:package:49120902/1"/>
@@ -1126,6 +1194,25 @@ MiroCross(TM)-DVI i/0 plug and receptacle connector system (scart)</description>
 <part name="LD1" library="headboard" library_urn="urn:adsk.eagle:library:49120877" deviceset="OCR_WP130WCP/2EGW" device="" package3d_urn="urn:adsk.eagle:package:49120898/1"/>
 <part name="ZD" library="headboard" library_urn="urn:adsk.eagle:library:49120877" deviceset="OCR_MMSZ3V3T1G" device="" package3d_urn="urn:adsk.eagle:package:49120899/1" value="3.3V"/>
 <part name="C1" library="headboard" library_urn="urn:adsk.eagle:library:49120877" deviceset="OCR_C3216X7R2E473K160AA" device="" package3d_urn="urn:adsk.eagle:package:49120906/1" value="47nF 250V"/>
+=======
+<part name="X2" library="OCR" library_urn="urn:adsk.eagle:library:8062975" deviceset="SMA-R/A" device="" package3d_urn="urn:adsk.eagle:package:8063023/3" value="SMA-R"/>
+<part name="TEC" library="OCR" library_urn="urn:adsk.eagle:library:8062975" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:8113090/4"/>
+<part name="PIEZO" library="OCR" library_urn="urn:adsk.eagle:library:8062975" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:8113090/4"/>
+<part name="THERM" library="OCR" library_urn="urn:adsk.eagle:library:8062975" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:8113090/4"/>
+<part name="LASER" library="OCR" library_urn="urn:adsk.eagle:library:8062975" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:8116905/3"/>
+<part name="L1" library="OCR" library_urn="urn:adsk.eagle:library:8062975" deviceset="SLF7032T" device="" package3d_urn="urn:adsk.eagle:package:8063020/4" value="3.3 uH 1.9A"/>
+<part name="R3" library="OCR" library_urn="urn:adsk.eagle:library:8062975" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:8116984/2" value="10k"/>
+<part name="R1" library="OCR" library_urn="urn:adsk.eagle:library:8062975" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:8116984/2" value="390R"/>
+<part name="R6" library="OCR" library_urn="urn:adsk.eagle:library:8062975" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:8116984/2" value="499R"/>
+<part name="R5" library="OCR" library_urn="urn:adsk.eagle:library:8062975" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:8116984/2" value="499R"/>
+<part name="R4" library="OCR" library_urn="urn:adsk.eagle:library:8062975" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:8116984/2" value="43R"/>
+<part name="PBB150" library="OCR" library_urn="urn:adsk.eagle:library:8062975" deviceset="PBB150" device="" package3d_urn="urn:adsk.eagle:package:8063021/2"/>
+<part name="X1" library="OCR" library_urn="urn:adsk.eagle:library:8062975" deviceset="DVI-D-R" device="_74320" package3d_urn="urn:adsk.eagle:package:8063018/2" value="DVI-D-R"/>
+<part name="LD1" library="OCR" library_urn="urn:adsk.eagle:library:8062975" deviceset="WP130WCP/2EGW" device="" package3d_urn="urn:adsk.eagle:package:8063024/2"/>
+<part name="ZD" library="OCR" library_urn="urn:adsk.eagle:library:8062975" deviceset="MMSZ3V3T1G" device="" package3d_urn="urn:adsk.eagle:package:8068621/4" value="3.3V"/>
+<part name="C1" library="OCR" library_urn="urn:adsk.eagle:library:8062975" deviceset="C3216X7R2E473K160AA" device="" package3d_urn="urn:adsk.eagle:package:8068922/2" value="47nF 250V"/>
+<part name="R7" library="Laser head board" library_urn="urn:adsk.eagle:library:49119273" deviceset="OCR_RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:49119303/2"/>
+>>>>>>> Stashed changes
 </parts>
 <sheets>
 <sheet>
@@ -1168,9 +1255,6 @@ MiroCross(TM)-DVI i/0 plug and receptacle connector system (scart)</description>
 <instance part="R5" gate="G$1" x="-20.32" y="22.86" smashed="yes">
 <attribute name="NAME" x="-24.136859375" y="24.87021875" size="1.7812" layer="95"/>
 </instance>
-<instance part="R2" gate="G$1" x="-71.12" y="53.34" smashed="yes">
-<attribute name="NAME" x="-74.936859375" y="55.35021875" size="1.7812" layer="95"/>
-</instance>
 <instance part="R4" gate="G$1" x="-5.08" y="66.04" smashed="yes">
 <attribute name="NAME" x="-8.896859375" y="68.05021875" size="1.7812" layer="95"/>
 </instance>
@@ -1197,6 +1281,9 @@ MiroCross(TM)-DVI i/0 plug and receptacle connector system (scart)</description>
 <instance part="C1" gate="G$1" x="-7.62" y="99.06" smashed="yes">
 <attribute name="NAME" x="-6.35" y="102.87" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-6.35" y="95.25" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="R7" gate="G$1" x="-71.12" y="53.34" smashed="yes">
+<attribute name="NAME" x="-71.12" y="54.864" size="1.778" layer="95" font="vector" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -1430,9 +1517,9 @@ MiroCross(TM)-DVI i/0 plug and receptacle connector system (scart)</description>
 <pinref part="X1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="-66.04" y1="53.34" x2="-60.96" y2="53.34" width="0.1524" layer="91"/>
 <label x="-60.96" y="53.34" size="1.778" layer="95" xref="yes"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="INTERLOCK+" class="0">
@@ -1440,8 +1527,8 @@ MiroCross(TM)-DVI i/0 plug and receptacle connector system (scart)</description>
 <wire x1="-99.06" y1="43.18" x2="-88.9" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="-88.9" y1="43.18" x2="-88.9" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="-88.9" y1="53.34" x2="-76.2" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="X1" gate="G$1" pin="HOT-PLUG"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="DISK_PIEZO+" class="0">
